@@ -4,7 +4,7 @@ header.innerHTML = `
     <!--NAVIGATION BAR-->
     <nav class="navbar navbar-expand-lg fixed-top my-0 py-0">
         <div class="container-fluid my-0 py-0">
-            <a class="navbar-brand" href="https://aydavid-thetechguy.github.io/living-springs-hospital-website-template">
+            <a class="navbar-brand" href="https://aydavid-thetechguy.github.io/lsh-website-template">
                 <img src="./assets/img/lsh1.png"/>
             </a>
             <div class="navbar-responsive">
@@ -70,7 +70,7 @@ header.innerHTML = `
 					aria-labelledby="menuLabel"
 				>
 					<div class="offcanvas-header">
-						<a href="https://aydavid-thetechguy.github.io/living-springs-hospital-website-template">
+						<a href="https://aydavid-thetechguy.github.io/lsh-website-template">
 							<img src="./assets/img/lsh1.png"/>
 						</a>
 						<button

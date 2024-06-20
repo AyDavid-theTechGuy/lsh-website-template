@@ -23,7 +23,7 @@ footer.innerHTML = `
 	<hr />
 	<div class="text-center copyright">
 		© Copyright 2024,
-		<a href="https://aydavid-thetechguy.github.io/living-springs-hospital-website-template" class="link">Living Springs Hospital</a>
+		<a href="https://aydavid-thetechguy.github.io/lsh-website-template" class="link">Living Springs Hospital</a>
 		<br>
 		<p class="text-white fst-italic mb-0">
 			Developed by 
