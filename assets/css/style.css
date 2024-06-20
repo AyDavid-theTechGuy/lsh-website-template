@@ -163,7 +163,6 @@ a {
 
 .banner-content {
 	padding-left: 40px;
-	padding-top: 84px;
 }
 
 .banner-content h1 {
@@ -453,6 +452,10 @@ footer {
 		margin: 104px 0 0 0;
 	}
 
+	.banner-content {
+		padding-top: 84px;
+	}
+
 	.banner-content p {
 		width: 630px;
 	}
@@ -480,6 +483,10 @@ footer {
 @media screen and (min-width: 977px) and (max-width: 1199px) {
 	.banner, .banner-o {
 		margin: 104px 0 0 0;
+	}
+
+	.banner-content {
+		padding-top: 84px;
 	}
 
 	.banner-content p {
@@ -511,6 +518,10 @@ footer {
 		margin: 87px 0 0 0;
 	}
 
+	.banner-content {
+		padding-top: 84px;
+	}
+
 	.banner-content p {
 		width: 630px;
 	}
@@ -538,6 +549,10 @@ footer {
 @media screen and (min-width: 477px) and (max-width: 767px) {
 	.banner, .banner-o {
 		margin: 78px 0 0 0;
+	}
+
+	.banner-content {
+		padding-top: 72px;
 	}
 
 	.banner-content p {
@@ -575,6 +590,7 @@ footer {
 
 	.banner-content {
 		padding-left: 21px;
+		padding-top: 54px;
 	}
 
 	.banner-content h1 {
