@@ -36,8 +36,10 @@
 }
 
 .serviceCard:hover {
-	box-shadow: 0 0 14px #d1d1d1;
+	box-shadow: 5px 5px 16px #c3c4c6;
 	color: white;
+	transition-duration: 0.5s;
+	margin-top: -12px;
 }
 
 .serviceCard i {
