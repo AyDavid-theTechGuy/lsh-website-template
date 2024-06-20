@@ -1,0 +1,207 @@
+.banner-o {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(60, 81, 136, 0.42)), 
+		url("../img/service-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-weight: 600;
+}
+
+.banner-o hr {
+	border: solid 1px #c0de1b;
+	border-radius: 2px;
+	color:  #c0de1b;
+	width: 72px;
+	opacity: 80;
+}
+
+/* ABOUT US PAGE */
+
+.content {
+	justify-content: center;
+	padding: 7px 28px;
+}
+
+@media screen and (min-width: 846px) {
+	.content {
+		margin: 0 140px;
+	}
+}
+
+.content p {
+	line-height: 1.6;
+}
+
+/* BOOK APPOINTMENT PAGE */
+
+.appointment-request-form {
+	margin: 72px 0 54px 0;
+	font-family: "Mulish", sans-serif;
+}
+.appointment-request-form .wrapper {
+	background-color: #2c65ab;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #c1c1c1;
+	padding: 40px 54px 24px 54px;
+}
+
+@media screen and (min-width: 547px) {
+	.appointment-request-form .wrapper {
+		width: max-content;
+	}
+}
+
+@media screen and (max-width: 546px) {
+	.appointment-request-form .wrapper {
+		padding: 40px 30px 24px 30px;
+		width: 90%;
+	}
+}
+
+.appointment-request-form .wrapper .name {
+	background-color: white;
+	color: #2c65ab;
+	border-radius: 2px;
+	font-size: 11px;
+	font-weight: 500;
+	margin: 0 0 5px 12px;
+	padding: 2px 7px 1px 7px;
+	max-width: max-content;
+	letter-spacing: 2px;
+}
+
+.appointment-request-form form input,
+.appointment-request-form form textarea {
+	background-color: #fbfbfb;
+	border: solid 1px #2c65ab;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.btn-submit {
+	background-color: white;
+	color: #2c65ab;
+	border: solid 2px #2c65ab;
+	border-radius: 3px;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 8px 9px;
+}
+
+.btn-submit:hover {
+	background-color: #2c65ab;
+	color: white;
+	border: solid 2px white;
+}
+
+/* FAQ PAGE */
+
+.faq-accordion {
+	margin: 54px 165px;
+	font-family: 'Mulish', sans-serif;
+}
+
+@media screen and (min-width: 522px) and (max-width: 726px) {
+	.faq-accordion {
+		margin: 54px 100px;
+	}
+}
+
+@media screen and (max-width: 521px) {
+	.faq-accordion {
+		margin: 54px 40px;
+	}
+}
+
+.faq-accordion #head {
+	font-size: 22px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.faq-accordion #content {
+	font-size: 17px;
+	padding: 10px 7px 0 7px;
+}
+
+.faq-accordion hr {
+	border-radius: 1px;
+	color: #c0de1b;
+	opacity: 1;
+}
+
+/* CONTACT US PAGE */
+
+.contact-form {
+	background-color: #2c65ab;
+	padding: 72px 0;
+	font-family: "Mulish", sans-serif;
+}
+
+@media screen and (min-width: 547px) {
+	.contact-form .wrapper {
+		width: 56%;
+	}
+}
+
+@media screen and (max-width: 546px) {
+	.contact-form .wrapper {
+		width: 90%;
+	}
+}
+
+.contact-form .wrapper .name {
+	background-color: white;
+	color: #2c65ab;
+	border-radius: 2px;
+	font-size: 11px;
+	font-weight: 500;
+	margin: 0 0 5px 12px;
+	padding: 2px 7px 1px 7px;
+	max-width: max-content;
+	letter-spacing: 2px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+	background-color: #fbfbfb;
+	border: solid 1px #2c65ab;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.contact-form .send {
+	background-color: white;
+	color: #2c65ab;
+	border: solid 2px white;
+	border-radius: 3px;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 8px 9px;
+}
+
+.contact-form .send:hover {
+	background-color: #2c65ab;
+	color: white;
+	border: solid 2px white;
+}
+
+.contact-cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (max-width: 397px) {
+	.mail-1 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 398px) {
+	.mail-2 {
+		display: none;
+	}
+}

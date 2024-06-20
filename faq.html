@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>FAQ - Living Springs Hospital</title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./assets/bootstrap-5.2.3/css/bootstrap.min.css"
+		/>
+		<link 
+			rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+		<script defer src="./assets/js/header.js"></script>
+		<script defer src="./assets/js/footer.js"></script>
+		<script defer src="./assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+		<script defer src="./assets/js/script.js"></script>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header"></header>
+
+		<!-- BANNER-O -->
+		<section class="banner-o">
+			<div class="container py-5 ms-4">
+				<h1>FAQ</h1>
+				<hr class="me-auto">
+			</div>
+		</section>
+
+		<!-- FAQ ACCORDION -->
+		<div class="faq-accordion">
+			<div id="head">
+				What are your hospital's visiting hours?&nbsp;
+				<i class="bi bi-chevron-up"></i> 
+			</div>
+			<div id="content">Our visiting hours are from 9am to 8pm, daily. However, please check with the nursing staff for specific visiting times for your loved one.</div>
+			<hr>
+			<div id="head">
+				How do I register for an appointment or admission?&nbsp;
+				<i class="bi bi-chevron-down"></i> 
+			</div>
+			<div id="content">Please arrive at least 15 minutes prior to your scheduled appointment and proceed to the registration desk. Bring your identication records and any other relevant medical records.</div>
+			<hr>
+			<div id="head">
+				How do I pay my bill?&nbsp;
+				<i class="bi bi-chevron-down"></i> 
+			</div>
+			<div id="content">You can pay your bill online through our specified account numbers via the bank or phone transfer.</div>
+			<hr>
+			<div id="head">
+				Do you have any support groups or resources for specific conditions?&nbsp;
+				<i class="bi bi-chevron-down"></i> 
+			</div>
+			<div id="content">Yes, please contact our patient services team for information on support groups and resources.</div>
+			<hr>
+			<div id="head">
+				What amenities are available for patients?&nbsp;
+				<i class="bi bi-chevron-down"></i> 
+			</div>
+			<div id="content">We offer a range of amenities, including Wi-Fi, TVs, and meal service. Please ask your nurse for more information.</div>
+			<hr>
+		</div>
+
+		<!-- WHATSAPP QUICK CONTACT -->
+		<div class="wa-qc fixed-bottom ms-auto"></div>
+
+		<!-- FOOTER -->
+		<footer class="footer"></footer>
+
+		<script src="./assets/jquery-3.7.1/jquery.min.js"></script>
+		<script>
+			const accordionHeads = document.querySelectorAll("#head");
+			const accordionIcons = document.querySelectorAll("#head i");
+			const contents = document.querySelectorAll("#content");
+
+			for (let i = 0; i < accordionHeads.length; i++) {
+				if(i == 0) {
+					continue;
+				}
+				$(contents[i]).slideUp();
+			}
+
+			for (let i = 0; i < accordionHeads.length; i++) {
+				$(accordionHeads[i]).click( function() {
+					$(contents[i]).slideDown();
+
+					for (let j = 0; j < accordionHeads.length; j++) {
+						if(j == i) {
+							$(accordionIcons[i]).removeClass('bi-chevron-down');
+							$(accordionIcons[i]).addClass('bi-chevron-up');
+							continue;
+						}
+						$(contents[j]).slideUp();
+						$(accordionIcons[j]).addClass('bi-chevron-down');
+						$(accordionIcons[j]).removeClass('bi-chevron-up');
+					}
+				});
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,182 @@
+/* Bottom Quote Card */
+
+.quote-card {
+	background-color: #f1f1f1;
+	border-radius: 7px;
+	justify-content: center;
+	margin-top: 120px;
+	padding: 12px 16px 3px 16px;
+	width: 300px;
+	z-index: 99;
+}
+
+.quote-card p {
+	font-size: 18px;
+	font-family: "Work Sans", sans-serif;
+}
+
+.quote-card p.person {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 500;
+	text-align: right;
+}
+
+/* Service Card */
+
+.serviceCard {
+	background-color: #2c65abcc;
+	border-radius: 7px;
+	box-shadow: 0 0 16px #2c65ab01;
+	color: white;
+	margin-bottom: 42px;
+	margin-right: 21px;
+	padding: 12px 24px;
+	text-align: center;
+}
+
+.serviceCard:hover {
+	box-shadow: 0 0 14px #d1d1d1;
+	color: white;
+}
+
+.serviceCard i {
+	color: #b6ff53;
+	font-size: 36px;
+}
+
+/* WCU Card */
+
+.wcu-card {
+	display: flex;
+	border-radius: 7px;
+	box-shadow: 0 0 16px #2c65ab01;
+	color: #f1f1f1;
+	text-align: left;
+	height: 300px;
+	width: 100%;
+}
+
+.wcu-card.wcu--1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(60, 81, 136, 0.97)), 
+		url("../img/wbg.webp");
+}
+
+.wcu-card.wcu--2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(60, 81, 136, 0.97)), 
+		url("../img/wbg.webp");
+}
+
+.wcu-card.wcu--3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(60, 81, 136, 0.97)), 
+		url("../img/wbg.webp");
+}
+
+.wcu-card h2 {
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 1.4;
+	letter-spacing: 2px;
+	z-index: 9;
+}
+
+/* News Card */
+
+.news-card {
+	background-color: #ffffff56;
+	height: max-content;
+}
+
+.news-card img {
+	height: 240px;
+	width: auto;
+}
+
+.news-card .news-btn {
+	background-color: #2c65abcc;
+	color: white;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 7px 9px;
+}
+
+.news-card .news-btn:hover {
+	background-color: #2c65ab;
+}
+
+/* Contact Card */
+
+.c-card {
+	background-color: #2c65ab;
+	color: #b6ff53;
+	border-radius: 7px;
+	padding: 16px 10px 10px 10px;
+}
+
+.c-card i {
+	font-size: 32px;
+}
+
+.c-card p {
+	font-family: "Mulish", sans-serif;
+	font-size: 18px;
+}
+
+/* Responsive Service Card, News Card */
+
+@media screen and (min-width: 977px) {
+	.serviceCard {
+		width: 28%;
+	}
+
+	.news-card {
+		width: 24%;
+	}
+
+	.c-card {
+		width: 72%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 976px) {
+	.serviceCard {
+		width: 42%;
+	}
+
+	.news-card {
+		width: 45%;
+	}
+
+	.c-card {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+	.serviceCard {
+		width: 75%;
+	}
+
+	.news-card {
+		width: 75%;
+	}
+
+	.c-card {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.serviceCard {
+		width: 97%;
+	}
+
+	.news-card {
+		width: 93%;
+	}
+
+	.c-card {
+		width: 77%;
+	}
+}
