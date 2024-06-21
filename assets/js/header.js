@@ -27,7 +27,7 @@ header.innerHTML = `
                     <li class="nav-item submenu">
                         <span class="nav-link dropdown-btn">
                             <span class="txt">
-								<a href="./services.html" style="color: #2c65ab">SERVICES</a>
+								SERVICES
 							</span>&nbsp;
                             <span class="drop-icon"><i class="bi bi-chevron-down"></i></span>
                         </span>
